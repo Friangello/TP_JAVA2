@@ -7,7 +7,7 @@ public class Aeroport {
     private String codeIATA;   // Code IATA de l'aéroport
 
     // Constructeur de la classe Aeroport
-    public Aeroport(String nom, double latitude, double longitude, String codeIATA) {
+    public Aeroport(String nom, String codeIATA, double latitude, double longitude) {
         this.nom = nom;
         this.latitude = latitude;
         this.longitude = longitude;
